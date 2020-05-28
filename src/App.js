@@ -205,32 +205,37 @@ class App extends React.Component {
 
 				<div className="col-sm-3 col-xs-6">
 					<div className="number">
-						<i className="fa fa-users"></i>
+						<i className="fa fa-heartbeat"></i>
 						<h3 className="white-text"><span className="counter">451</span></h3>
-						<span className="white-text">Happy clients</span>
+						<span className="white-text">Coronavirus Cases : </span>
+						<span className="white-text">5,813,004</span>
+					</div>
+				</div>
+
+				<div className="col-sm-3 col-xs-6">
+					<div className="number">
+						<i className="fa fa-ambulance"></i>
+						<h3 className="white-text"><span className="counter">12</span></h3>
+						<span className="white-text">Deaths : </span>
+						<span className="white-text">357,889</span>
 					</div>
 				</div>
 
 				<div className="col-sm-3 col-xs-6">
 					<div className="number">
 						<i className="fa fa-trophy"></i>
-						<h3 className="white-text"><span className="counter">12</span></h3>
-						<span className="white-text">Awards won</span>
-					</div>
-				</div>
-
-				<div className="col-sm-3 col-xs-6">
-					<div className="number">
-						<i className="fa fa-coffee"></i>
 						<h3 className="white-text"><span className="counter">154</span>K</h3>
-						<span className="white-text">Cups of Coffee</span>
+						<span className="white-text">Recovered : </span>
+						<span className="white-text">2,514,886</span>
+
 					</div>
 				</div>
 				<div className="col-sm-3 col-xs-6">
 					<div className="number">
 						<i className="fa fa-file"></i>
 						<h3 className="white-text"><span className="counter">45</span></h3>
-						<span className="white-text">Projects completed</span>
+						<span className="white-text">Unemployment : </span>
+						<span className="white-text">195 million job losses</span>
 					</div>
 				</div>
 
@@ -240,38 +245,6 @@ class App extends React.Component {
 
 	</div>
 
-
-		<div className="container">
-
-			<div className="row">
-
-				<div className="col-md-10 col-md-offset-1">
-					<div id="testimonial-slider" className="owl-carousel owl-theme">
-
-						<div className="testimonial">
-							<div className="testimonial-meta">
-								<img src="./img/perso1.jpg" alt="" />
-								<h3 className="white-text">John Doe</h3>
-								<span>Web Designer</span>
-							</div>
-							<p className="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-						</div>
-
-						<div className="testimonial">
-							<div className="testimonial-meta">
-								<img src="./img/perso2.jpg" alt="" />
-								<h3 className="white-text">John Doe</h3>
-								<span>Web Designer</span>
-							</div>
-							<p className="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-		</div>
 
 	<div id="team" className="section md-padding">
 
