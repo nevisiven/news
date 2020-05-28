@@ -27,10 +27,9 @@ class App extends React.Component {
 				<ul className="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">Environment</a></li>
-					<li><a href="#portfolio">CO2</a></li>
 					<li><a href="#team">Flights</a></li>
-					<li><a href="#blog">Recent</a>
-					</li>
+					<li><a href="#blog">Recent</a></li>
+					<li><a href="#portfolio">CO2</a></li>
 					<li><a href="https://sleepy-newton-f8cfc9.netlify.app/">Go Back</a></li>
 				</ul>
 
@@ -97,101 +96,6 @@ class App extends React.Component {
 		</div>
 
 	</div>
-
-
-	<div id="portfolio" className="section md-padding bg-grey">
-
-		<div className="container">
-
-			<div className="row">
-
-				<div className="section-header text-center">
-					<h2 className="title">Coronavirus set to cause largest ever annual fall in CO2 emissions</h2>
-				</div>
-
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="https://assets.weforum.org/editor/TGuQWEf3njqE45KNEwBTIG-SEcZIhFLrIWQ0eBx_vwM.gif" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>2018 vs 2020</span>
-						<h3>Effect on air pollution</h3>
-						<div className="work-link">
-							<a href="https://www.weforum.org/agenda/2020/04/coronavirus-covid19-air-pollution-enviroment-nature-lockdown"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="https://assets.weforum.org/editor/TGuQWEf3njqE45KNEwBTIG-SEcZIhFLrIWQ0eBx_vwM.gif"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="https://cdn.mos.cms.futurecdn.net/wR5GMcT5osVvtvfN53DhLi-650-80.jpg" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>France</span>
-						<h3></h3>
-						<div className="work-link">
-							<a href="https://www.space.com/coronavirus-impacts-emissions-china-night-lights.html"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="https://cdn.mos.cms.futurecdn.net/wR5GMcT5osVvtvfN53DhLi-650-80.jpg"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="https://cdn.mos.cms.futurecdn.net/YNck994Shu8bQfaj4bY8K9.gif" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>Spain</span>
-						
-						<div className="work-link">
-							<a href="https://www.space.com/coronavirus-impacts-emissions-china-night-lights.html"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="https://cdn.mos.cms.futurecdn.net/YNck994Shu8bQfaj4bY8K9.gif"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work4.jpg" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work4.jpg"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work5.jpg" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work5.jpg"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work6.jpg" alt="" />
-					<div className="overlay"></div>
-					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work6.jpg"><i className="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-
 
 	<div id="numbers" className="section sm-padding">
 
@@ -361,6 +265,63 @@ class App extends React.Component {
 		</div>
 
 	</div>
+	
+	<div id="portfolio" className="section md-padding bg-grey">
+
+		<div className="container">
+
+			<div className="row">
+
+				<div className="section-header text-center">
+					<h2 className="title">Coronavirus set to cause largest ever annual fall in CO2 emissions</h2>
+				</div>
+
+				<div className="col-md-4 col-xs-6 work">
+					<img className="img-responsive" src="https://assets.weforum.org/editor/TGuQWEf3njqE45KNEwBTIG-SEcZIhFLrIWQ0eBx_vwM.gif" alt="" />
+					<div className="overlay"></div>
+					<div className="work-content">
+						<span>2018 vs 2020</span>
+						<h3>Effect on air pollution</h3>
+						<div className="work-link">
+							<a href="https://www.weforum.org/agenda/2020/04/coronavirus-covid19-air-pollution-enviroment-nature-lockdown"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" href="https://assets.weforum.org/editor/TGuQWEf3njqE45KNEwBTIG-SEcZIhFLrIWQ0eBx_vwM.gif"><i className="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div className="col-md-4 col-xs-6 work">
+					<img className="img-responsive" src="https://cdn.mos.cms.futurecdn.net/wR5GMcT5osVvtvfN53DhLi-650-80.jpg" alt="" />
+					<div className="overlay"></div>
+					<div className="work-content">
+						<span>France</span>
+						<h3></h3>
+						<div className="work-link">
+							<a href="https://www.space.com/coronavirus-impacts-emissions-china-night-lights.html"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" href="https://cdn.mos.cms.futurecdn.net/wR5GMcT5osVvtvfN53DhLi-650-80.jpg"><i className="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-md-4 col-xs-6 work">
+					<img className="img-responsive" src="https://cdn.mos.cms.futurecdn.net/YNck994Shu8bQfaj4bY8K9.gif" alt="" />
+					<div className="overlay"></div>
+					<div className="work-content">
+						<span>Spain</span>
+						
+						<div className="work-link">
+							<a href="https://www.space.com/coronavirus-impacts-emissions-china-night-lights.html"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" href="https://cdn.mos.cms.futurecdn.net/YNck994Shu8bQfaj4bY8K9.gif"><i className="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
 
 
 	<footer id="footer" className="sm-padding bg-dark">
